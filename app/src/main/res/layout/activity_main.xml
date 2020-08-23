@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/leaves"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TO xyz ,"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="cursive"
+        android:layout_margin="8dp"/>
+
+    <ImageView
+        android:id="@+id/person1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/receiver"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/person" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FROM Ravish"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/first_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person1"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:text="You made me happy , when i was sad...."
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:id="@+id/second_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_tv"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:text="You helped me when , my situation was bad...."
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+    <TextView
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:id="@+id/third_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_tv"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:text="You are just like a LIFELINE to me....."
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:id="@+id/fourth_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/third_tv"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:text="A big THANKYOU for becoming my friend."
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+</RelativeLayout>
